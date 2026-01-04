@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.bubble {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  animation: float 4s infinite;
+}
+
+.blue { background: #4da6ff; left: 30%; }
+.green { background: #4dff88; left: 50%; }
+.red { background: #ff4d4d; left: 70%; }
+
+@keyframes float {
+  from { bottom: 0; }
+  to { bottom: 300px; }
+}

@@ -1,0 +1,11 @@
+function start() {
+  setInterval(() => {
+    let alpha = Math.random();
+    let beta = Math.random();
+    let gamma = Math.random();
+
+    document.getElementById("bubble1").style.opacity = alpha > 0.5 ? 0 : 1;
+    document.getElementById("bubble2").style.opacity = beta > 0.6 ? 0 : 1;
+    document.getElementById("bubble3").style.opacity = gamma > 0.7 ? 0 : 1;
+  }, 500);
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Brain Bubbles</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Brain Bubbles</h2>
+
+<div id="bubble1" class="bubble blue"></div>
+<div id="bubble2" class="bubble green"></div>
+<div id="bubble3" class="bubble red"></div>
+
+<button onclick="start()">Start</button>
+
+<script src="script.js"></script>
+</body>
+</html
